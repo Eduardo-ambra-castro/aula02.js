@@ -70,3 +70,66 @@ if(true) {
 }else{
     console.log(falso)
 }
+
+// if/ if/else /else encadeado
+
+let nota= 7;
+
+if (nota >= 8){
+    console.log("Aprivado com sucesso")
+}
+
+else if (nota >= 6){
+    console.log("Ficou de exame")
+}
+
+else{
+    console.log("Reprovado")
+}
+
+// switch case
+
+let diaSemana=3;
+switch(diaSemana){
+    case 1:
+        console.log("Segunda-feira")
+        break;
+    case 2:
+    console.log("Terca-feira")
+        break;
+    case 3:
+    console.log("Quarta-feira")
+        break;
+    default:
+            console.log("Outro dia")
+}
+
+// ternario encadeado ?(if) :(else)
+
+let notaUsuario= (nota >=6)? "Aprovado": "Reprovado";
+console.log(notaUsuario)
+
+let idade1= 18;
+let podePilotar= idade1 >=18 ? "Pode pilotar": "Não pode pilotar";
+
+// let resultado = 10
+
+// let jogador = resultado <= 20 ? "jogo bom":
+//                resultado > 20 && resultado < 99 ? "jogo medio":
+//                resultado > 100 ? "jogo Alto":"Extraordinario";
+// console.log(jogador)
+
+// let nomeDev = prompt("Qual o seu nome? ")
+// let mensagem =nomeDev ? `Olá, dev ${nomeDev}`:"Você não digitou"
+
+// console.log(mensagem)
+
+
+// estrutura de repetção
+
+// for
+
+    // declaração operação incremento
+for(let numero = 1; numero <= 10; numero ++){
+    console.log(`Contagem de numeros ${numero}`)
+}
